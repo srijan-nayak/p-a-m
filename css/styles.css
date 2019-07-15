@@ -5,3 +5,8 @@ body {
 .light-font {
   font-weight: 300;
 }
+
+.center {
+  display: flex;
+  justify-content: space-evenly;
+}
