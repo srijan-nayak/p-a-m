@@ -16,10 +16,16 @@
     <form action="js/main.js" class="contols light-font">
       <fieldset>
         <legend>Grid Size</legend>
-        <label for="grid-columns">Columns</label>
-        <input type="number" name="columns" value="5" id="grid-columns">
-        <label for="grid-rows">Rows</label>
-        <input type="number" name="rows" value="5" id="grid-rows">
+        <div class="space-evenly">
+          <div class="numeric-input">
+            <label for="grid-columns">Columns:</label>
+            <input class="labeled-input" type="number" name="columns" value="5" id="grid-columns">
+          </div>
+          <div class="numeric-input">
+            <label for="grid-rows">Rows:</label>
+            <input class="labeled-input" type="number" name="rows" value="5" id="grid-rows">
+          </div>
+        </div>
       </fieldset>
     </form>
 

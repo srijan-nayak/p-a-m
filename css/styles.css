@@ -10,3 +10,25 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+fieldset {
+  border-width: 1px;
+}
+
+input {
+  border-color: darkgrey;
+  border-width: 0 0 1px 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  width: 50px;
+}
+
+.labeled-input {
+  margin-left: 5px;
+}
