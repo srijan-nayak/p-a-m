@@ -16,14 +16,14 @@ body {
   justify-content: space-evenly;
 }
 
-fieldset {
+.grid-size-fieldset {
   border-radius: 5px;
   border-width: 1px;
   margin-left: 15px;
   margin-right: 15px;
 }
 
-input {
+.numeric-input {
   border-color: darkgrey;
   border-width: 0 0 1px 0;
   font-family: "Open Sans", sans-serif;
