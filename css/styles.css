@@ -2,7 +2,8 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.light-font {
+#main-heading {
+  font-size: 2.5em;
   font-weight: 300;
 }
 
