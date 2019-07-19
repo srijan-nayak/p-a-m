@@ -17,7 +17,7 @@ body {
   justify-content: space-evenly;
 }
 
-.grid-size-fieldset {
+.grid-size-fieldset, .brush-setting-fieldset {
   border-width: 1px;
   margin-left: 25px;
   margin-right: 25px;
@@ -30,6 +30,12 @@ body {
   font-weight: 300;
   text-align: center;
   width: 50px;
+}
+
+.color-input {
+  background-color: #fff;
+  border-color: darkgrey;
+  border-width: 0 0 1px 0;
 }
 
 .labeled-input {
