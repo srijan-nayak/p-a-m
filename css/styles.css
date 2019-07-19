@@ -7,6 +7,11 @@ body {
   font-weight: 300;
 }
 
+.controls-form {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .center {
   display: flex;
   justify-content: center;
@@ -21,6 +26,7 @@ body {
   border-width: 1px;
   margin-left: 25px;
   margin-right: 25px;
+  width: 40%;
 }
 
 .numeric-input {
