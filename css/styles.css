@@ -22,7 +22,7 @@ body {
   justify-content: space-evenly;
 }
 
-.grid-size-fieldset, .brush-setting-fieldset {
+.small-fieldset {
   border-width: 1px;
   margin-left: 25px;
   margin-right: 25px;
