@@ -19,8 +19,18 @@ function makeGrid(rows, columns) {
 	}
 }
 
+function paintTarget(event) {
+	target = event.target;
+	console.log(target);
+	color = document.getElementById("brush-color-input").value;
+	console.log(color);
+	target.style.backgroundColor = color;
+}
+
 let rowController = document.getElementById("grid-rows-input");
 let columnController = document.getElementById("grid-columns-input");
+let canvas = document.getElementById("grid");
 
 rowController.addEventListener("input", handleSizeChange);
 columnController.addEventListener("input", handleSizeChange);
+canvas.addEventListener("mousedown", paintTarget);
