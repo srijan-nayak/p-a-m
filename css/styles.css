@@ -48,6 +48,10 @@ body {
   margin-left: 5px;
 }
 
+#grid {
+  border-spacing: 0;
+}
+
 .grid-cell {
   border-color: #a9a9a9;
   border-style: solid;
