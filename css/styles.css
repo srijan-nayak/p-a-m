@@ -30,7 +30,7 @@ body {
 }
 
 .numeric-input {
-  border-color: darkgrey;
+  border-color: #a9a9a9;
   border-width: 0 0 1px 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
@@ -39,8 +39,8 @@ body {
 }
 
 .color-input {
-  background-color: #fff;
-  border-color: darkgrey;
+  background-color: #ffffff;
+  border-color: #a9a9a9;
   border-width: 0 0 1px 0;
 }
 
