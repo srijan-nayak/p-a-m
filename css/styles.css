@@ -23,6 +23,7 @@ body {
 }
 
 .small-fieldset {
+  border-color: #a9a9a9;
   border-width: 1px;
   margin-left: 25px;
   margin-right: 25px;
@@ -33,7 +34,6 @@ body {
   border-color: #a9a9a9;
   border-width: 0 0 1px 0;
   font-family: "Open Sans", sans-serif;
-  font-weight: 300;
   text-align: center;
   width: 50px;
 }
