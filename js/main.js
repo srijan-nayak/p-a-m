@@ -30,7 +30,12 @@ function paintTarget(event) {
 let rowController = document.getElementById("grid-rows-input");
 let columnController = document.getElementById("grid-columns-input");
 let canvas = document.getElementById("grid");
+let clearButton = document.getElementById("clear-button");
 
 rowController.addEventListener("input", handleSizeChange);
 columnController.addEventListener("input", handleSizeChange);
 canvas.addEventListener("mousedown", paintTarget);
+
+// Handling size change will make a fresh grid of the same size,
+// effectivly functioning like a clear function.
+clearButton.addEventListener("click", handleSizeChange);
