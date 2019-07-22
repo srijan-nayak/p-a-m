@@ -19,9 +19,11 @@
     </div>
 
     <form class="controls-form">
+      <!-- Grid Size Settings -->
       <fieldset class="small-fieldset">
         <legend>Grid Size</legend>
         <div class="space-evenly">
+          <!-- Input for number of rows -->
           <div class="numeric-input-field">
             <label for="grid-rows-input">Rows:</label>
             <input
@@ -32,6 +34,7 @@
               id="grid-rows-input"
             />
           </div>
+          <!-- Input for number of columns -->
           <div class="numeric-input-field">
             <label for="grid-columns-input">Columns:</label>
             <input
@@ -45,9 +48,11 @@
         </div>
       </fieldset>
 
+      <!-- Brush Settings -->
       <fieldset class="small-fieldset">
         <legend>Brush Setting</legend>
         <div class="space-evenly">
+          <!-- Color selector -->
           <div class="color-input-field">
             <label for="brush-color-input">Color:</label>
             <input
@@ -63,11 +68,14 @@
 
     <br>
     <div class="center">
+      <!-- Clear button resets the grid -->
       <button class="flat-button" id="clear-button">Clear</button>
     </div>
     <br>
 
     <div class="center">
+      <!-- The grid in which new rows of cells will be added -->
+      <!-- on row and column input -->
       <table id="grid"></table>
     </div>
 
