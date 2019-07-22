@@ -1,6 +1,7 @@
 function handleSizeChange(event) {
 	let rows = document.getElementById("grid-rows-input").value;
 	let columns = document.getElementById("grid-columns-input").value;
+	// Make a new grid with the current row and column input vales
 	makeGrid(rows, columns);
 	console.log(`Rows: ${rows}, Columns: ${columns}`);
 }
@@ -24,6 +25,8 @@ function paintTarget(event) {
 	console.log(target);
 	color = document.getElementById("brush-color-input").value;
 	console.log(color);
+	// Update the background color of the clicked element with
+	// the color inout value
 	target.style.backgroundColor = color;
 }
 
@@ -37,5 +40,5 @@ columnController.addEventListener("input", handleSizeChange);
 canvas.addEventListener("mousedown", paintTarget);
 
 // Handling size change will make a fresh grid of the same size,
-// effectivly functioning like a clear function.
+// effectivly functioning like a clear function
 clearButton.addEventListener("click", handleSizeChange);
