@@ -3,7 +3,6 @@ function handleSizeChange(event) {
 	let columns = document.getElementById("grid-columns-input").value;
 	// Make a new grid with the current row and column input vales
 	makeGrid(rows, columns);
-	console.log(`Rows: ${rows}, Columns: ${columns}`);
 }
 
 function makeGrid(rows, columns) {
@@ -22,9 +21,7 @@ function makeGrid(rows, columns) {
 
 function paintTarget(event) {
 	target = event.target;
-	console.log(target);
 	color = document.getElementById("brush-color-input").value;
-	console.log(color);
 	// Update the background color of the clicked element with
 	// the color inout value
 	target.style.backgroundColor = color;
